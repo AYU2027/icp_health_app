@@ -1,11 +1,26 @@
+import React from "react";
+
 function Signup() {
   return (
     <div>
-      <h2>Signup</h2>
-      <input type="text" placeholder="Full Name" /><br />
-      <input type="email" placeholder="Email" /><br />
-      <input type="password" placeholder="Password" /><br />
-      <button>Create Account</button>
+      <h2>Sign Up</h2>
+      <div>
+        <input
+          type="text"
+          placeholder="New Username"
+        />
+        <input
+          type="password"
+          placeholder="New Password"
+        />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <button>
+          Sign Up
+        </button>
+      </div>
     </div>
   );
 }
